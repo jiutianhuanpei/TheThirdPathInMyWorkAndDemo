@@ -2,6 +2,7 @@
 项目中用到的三方和Demo
 #如下
 pod 'AFNetworking'
+
 pod 'HexColors'
 pod 'EAIntroView'
 pod 'FMDB'
