@@ -58,7 +58,13 @@
 //    btn.backgroundColor = [UIColor redColor];
     btn.frame = CGRectMake(0, 0, 58, 58);
     btn.center = self.view.center;
+    [btn setTitle:@"132" forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"account-circle-active"] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
+    btn.layer.cornerRadius = 29;
+    btn.layer.masksToBounds = YES;
+    btn.layer.borderWidth = 1;
+    btn.backgroundColor = [UIColor blueColor];
     [self.view addSubview:btn];
     
   
