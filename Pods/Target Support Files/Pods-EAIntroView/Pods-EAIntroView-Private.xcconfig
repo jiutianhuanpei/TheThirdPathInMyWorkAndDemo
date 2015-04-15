@@ -1,0 +1,5 @@
+#include "Pods-EAIntroView.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/EAIntroView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AdvancedCollectionView" "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/EAIntroView" "${PODS_ROOT}/Headers/Public/EARestrictedScrollView" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/FontAwesome+iOS" "${PODS_ROOT}/Headers/Public/HPGrowingTextView" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/M13BadgeView" "${PODS_ROOT}/Headers/Public/PPiAwesomeButton" "${PODS_ROOT}/Headers/Public/PPiFlatSegmentedControl" "${PODS_ROOT}/Headers/Public/RHRefreshControl" "${PODS_ROOT}/Headers/Public/RateView" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/UMeng" "${PODS_ROOT}/Headers/Public/XMPPFramework" "${PODS_ROOT}/Headers/Public/libqrencode"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

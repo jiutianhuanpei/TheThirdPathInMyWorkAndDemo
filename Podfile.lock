@@ -1,0 +1,234 @@
+PODS:
+  - AdvancedCollectionView (1.0)
+  - AFNetworking (2.5.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.2)
+  - AFNetworking/Security (2.5.2)
+  - AFNetworking/Serialization (2.5.2)
+  - AFNetworking/UIKit (2.5.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.3.5)
+  - CocoaLumberjack (1.6.5.1):
+    - CocoaLumberjack/Core
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.6.5.1)
+  - CocoaLumberjack/Extensions (1.6.5.1):
+    - CocoaLumberjack/Core
+  - EAIntroView (2.7.0):
+    - EARestrictedScrollView (~> 0.1.0)
+  - EARestrictedScrollView (0.1.0)
+  - FMDB (2.5):
+    - FMDB/standard
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - FontAwesome+iOS (0.1.4)
+  - HexColors (2.2.1)
+  - HPGrowingTextView (1.1)
+  - libqrencode (3.4.2)
+  - M13BadgeView (1.0.4)
+  - PPiAwesomeButton (1.5.2):
+    - FontAwesome+iOS
+  - PPiFlatSegmentedControl (1.4.0):
+    - PPiAwesomeButton
+  - RateView (1.1)
+  - RHRefreshControl (0.1.beta1)
+  - SVProgressHUD (1.1.3)
+  - UMeng (2.2.1)
+  - XMPPFramework (3.6.4):
+    - XMPPFramework/Authentication
+    - XMPPFramework/BandwidthMonitor
+    - XMPPFramework/Categories
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/GoogleSharedStatus
+    - XMPPFramework/KissXML
+    - XMPPFramework/ProcessOne
+    - XMPPFramework/Reconnect
+    - XMPPFramework/Roster
+    - XMPPFramework/SystemInputActivityMonitor
+    - XMPPFramework/Utilities
+    - XMPPFramework/XEP-0009
+    - XMPPFramework/XEP-0012
+    - XMPPFramework/XEP-0016
+    - XMPPFramework/XEP-0045
+    - XMPPFramework/XEP-0054
+    - XMPPFramework/XEP-0059
+    - XMPPFramework/XEP-0060
+    - XMPPFramework/XEP-0065
+    - XMPPFramework/XEP-0066
+    - XMPPFramework/XEP-0082
+    - XMPPFramework/XEP-0085
+    - XMPPFramework/XEP-0100
+    - XMPPFramework/XEP-0106
+    - XMPPFramework/XEP-0115
+    - XMPPFramework/XEP-0136
+    - XMPPFramework/XEP-0153
+    - XMPPFramework/XEP-0172
+    - XMPPFramework/XEP-0184
+    - XMPPFramework/XEP-0199
+    - XMPPFramework/XEP-0202
+    - XMPPFramework/XEP-0203
+    - XMPPFramework/XEP-0223
+    - XMPPFramework/XEP-0224
+    - XMPPFramework/XEP-0280
+    - XMPPFramework/XEP-0297
+    - XMPPFramework/XEP-0308
+    - XMPPFramework/XEP-0333
+    - XMPPFramework/XEP-0335
+  - XMPPFramework/Authentication (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/BandwidthMonitor (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/Categories (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/Core (3.6.4):
+    - CocoaAsyncSocket (~> 7.3.1)
+    - CocoaLumberjack (~> 1.6.2)
+    - XMPPFramework/Authentication
+    - XMPPFramework/Categories
+    - XMPPFramework/KissXML
+    - XMPPFramework/Utilities
+  - XMPPFramework/CoreDataStorage (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/GoogleSharedStatus (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/KissXML (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/ProcessOne (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/Reconnect (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/Roster (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/SystemInputActivityMonitor (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/Utilities (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0009 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0012 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0016 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0045 (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0054 (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/Roster
+    - XMPPFramework/XEP-0153
+  - XMPPFramework/XEP-0059 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0060 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0065 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0066 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0082 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0085 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0100 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0106 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0115 (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+  - XMPPFramework/XEP-0136 (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0085
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0153 (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0054
+  - XMPPFramework/XEP-0172 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0184 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0199 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0202 (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0082
+  - XMPPFramework/XEP-0203 (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0082
+  - XMPPFramework/XEP-0223 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0224 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0280 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0297 (3.6.4):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0308 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0333 (3.6.4):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0335 (3.6.4):
+    - XMPPFramework/Core
+
+DEPENDENCIES:
+  - AdvancedCollectionView (from `https://github.com/akolov/AdvancedCollectionView.git`)
+  - AFNetworking
+  - EAIntroView
+  - FMDB
+  - HexColors
+  - HPGrowingTextView
+  - libqrencode
+  - M13BadgeView
+  - PPiFlatSegmentedControl
+  - RateView (~> 1.1)
+  - RHRefreshControl (~> 0.1.beta1)
+  - SVProgressHUD
+  - UMeng
+  - XMPPFramework
+
+EXTERNAL SOURCES:
+  AdvancedCollectionView:
+    :git: https://github.com/akolov/AdvancedCollectionView.git
+
+SPEC CHECKSUMS:
+  AdvancedCollectionView: 27bf28c4235f693b41c4b9be5d4c56231590a506
+  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
+  CocoaAsyncSocket: 94c582a5bef4bb0f51b6ebf3e1b561d9091a68ba
+  CocoaLumberjack: 5e26ebef5a48962d1713ae6cb01da30384f3f14e
+  EAIntroView: 9becdb1441712405346a3e6bc31b0d9a57b63b10
+  EARestrictedScrollView: 5ab3eadd9ea55282cc72df0daecb09803059e3a0
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  FontAwesome+iOS: 9070b682a9255ca0fdc34bcfb129ad0ba2b73b87
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
+  libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
+  M13BadgeView: 700dd0714fdc837c0cf1c8c004454963ec22441f
+  PPiAwesomeButton: 16f7279582fd36f65186b24b83ef876217363eb5
+  PPiFlatSegmentedControl: ed706988b57f887fc09852dd0da18b3355cd8bea
+  RateView: 47fe2cd67ada3dfed8e123fad678b028bf1a5c50
+  RHRefreshControl: 57a185667bad59f93cb788e3217b535cf20b3de6
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  UMeng: a4fe3231efeb223015d9649e92538dd16a92685f
+  XMPPFramework: 05ee0992d696217f25c78091b275eb0ed4d27c04
+
+COCOAPODS: 0.34.4
