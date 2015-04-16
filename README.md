@@ -16,7 +16,7 @@ git仓库：https://github.com/ealeksandrov/EAIntroView
 
 ###pod 'FMDB'
 git仓库：https://github.com/ccgus/fmdb
-* sqlite
+* FMDB是iOS平台的SQLite数据库框架
 
 ###pod 'HPGrowingTextView'
 git仓库：https://github.com/yatinsns/HPGrowingTextView
