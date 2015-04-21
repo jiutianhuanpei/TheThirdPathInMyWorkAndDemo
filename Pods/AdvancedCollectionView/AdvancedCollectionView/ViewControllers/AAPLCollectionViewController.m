@@ -37,17 +37,25 @@ static void * const AAPLDataSourceContext = @"DataSourceContext";
     _swipeStateMachine = [[AAPLSwipeToEditStateMachine alloc] initWithCollectionView:self.collectionView];
 }
 
-- (void)viewWillAppear:(BOOL)animated
+- (void)viewDidLoad
 {
-    [super viewWillAppear:animated];
-
+    [super viewDidLoad];
+    
     UICollectionView *collectionView = self.collectionView;
-
+    
     AAPLDataSource *dataSource = (AAPLDataSource *)collectionView.dataSource;
     if ([dataSource isKindOfClass:[AAPLDataSource class]]) {
         [dataSource registerReusableViewsWithCollectionView:collectionView];
         [dataSource setNeedsLoadContent];
     }
+    
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+
 }
 
 - (void)viewDidDisappear:(BOOL)animated

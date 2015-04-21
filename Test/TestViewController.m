@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 沈红榜. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "TestViewController.h"
 #import <RateView/RateView.h>
 #import "CustomBtn.h"
 
-@interface RootViewController ()
+@interface TestViewController ()
 
 @end
 
-@implementation RootViewController {
+@implementation TestViewController {
     
     UIScrollView *_scrollView;
     
@@ -39,6 +39,43 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    // 自定义 button
+    [self creatButton];
+    
+    
+    // 创建 View
+    [self creatView];
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+
+    
+}
+
+- (void)creatButton {
+    CustomBtn *btn = [CustomBtn buttonWithType:UIButtonTypeCustom];
+    //    btn.backgroundColor = [UIColor redColor];
+    btn.frame = CGRectMake(0, 0, 58, 58);
+    btn.center = self.view.center;
+    [btn setTitle:@"132" forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"account-circle-active"] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
+    btn.layer.cornerRadius = 29;
+    btn.layer.masksToBounds = YES;
+    btn.layer.borderWidth = 1;
+    btn.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:btn];
+}
+
+- (void)creatView {
     UIView *view = self.view;
     
     CGFloat maxWidth = CGRectGetWidth(self.view.frame);
@@ -165,49 +202,7 @@
         button.center = CGPointMake(maxWidth / 5 + maxWidth * i / 5, theLineY + theBottomY - 40);
         [_scrollView addSubview:button];
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-//    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-//    view.center = self.view.center;
-//    view.backgroundColor = [UIColor colorWithRed:220/255.0 green:55/255.0 blue:50/255.0 alpha:1.0];
-//    [self.view addSubview:view];
-    
-//    CGFloat width = (CGRectGetWidth(self.view.bounds) - 60) / 5.;
-//    
-//    for (int i = 0; i < 5; i++) {
-//        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(10 + (width + 10) * i, 70, width, width)];
-//        view.backgroundColor = [UIColor redColor];
-//        view.layer.cornerRadius = width / 2.;
-//        view.clipsToBounds = YES;
-//        view.layer.shadowColor = [UIColor blackColor].CGColor;
-//        [view.layer setMasksToBounds:YES];
-//        [view.layer setBorderWidth:1];
-//        [self.view addSubview:view];
-//    }
-    /*
-    CustomBtn *btn = [CustomBtn buttonWithType:UIButtonTypeCustom];
-//    btn.backgroundColor = [UIColor redColor];
-    btn.frame = CGRectMake(0, 0, 58, 58);
-    btn.center = self.view.center;
-    [btn setTitle:@"132" forState:UIControlStateNormal];
-    [btn setImage:[UIImage imageNamed:@"account-circle-active"] forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
-    btn.layer.cornerRadius = 29;
-    btn.layer.masksToBounds = YES;
-    btn.layer.borderWidth = 1;
-    btn.backgroundColor = [UIColor blueColor];
-    [self.view addSubview:btn];
-    */
-    
 
-    
 }
 
 - (CGFloat)getWidth:(NSString *)string height:(CGFloat)height fontSize:(CGFloat)fontSize

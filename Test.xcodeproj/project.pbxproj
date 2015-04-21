@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D126ACF1AE504E30032DCA3 /* SHBCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D126ACE1AE504E30032DCA3 /* SHBCollectionController.m */; };
+		4D126AD21AE505070032DCA3 /* SHBDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D126AD11AE505070032DCA3 /* SHBDataSource.m */; };
+		4D126AD51AE508230032DCA3 /* SHBCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D126AD41AE508220032DCA3 /* SHBCustomCell.m */; };
+		4D126AD81AE508C40032DCA3 /* SHBDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D126AD71AE508C40032DCA3 /* SHBDataModel.m */; };
 		4D72B3B61ADDFE780024EF6C /* CustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D72B3B51ADDFE780024EF6C /* CustomBtn.m */; };
 		4DA86D3B1AD6774E00F97A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA86D3A1AD6774E00F97A3F /* main.m */; };
 		4DA86D3E1AD6774E00F97A3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA86D3D1AD6774E00F97A3F /* AppDelegate.m */; };
 		4DA86D401AD6774E00F97A3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA86D3F1AD6774E00F97A3F /* Images.xcassets */; };
 		4DA86D431AD6774E00F97A3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA86D411AD6774E00F97A3F /* LaunchScreen.xib */; };
 		4DA86D4F1AD6774F00F97A3F /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA86D4E1AD6774F00F97A3F /* TestTests.m */; };
-		4DA86D5A1AD6776500F97A3F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA86D591AD6776500F97A3F /* RootViewController.m */; };
+		4DA86D5A1AD6776500F97A3F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA86D591AD6776500F97A3F /* TestViewController.m */; };
 		F4A824BE73DC7C86F21D9DF2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9AD632B562A942E0827667 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D126ACD1AE504E20032DCA3 /* SHBCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBCollectionController.h; sourceTree = "<group>"; };
+		4D126ACE1AE504E30032DCA3 /* SHBCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBCollectionController.m; sourceTree = "<group>"; };
+		4D126AD01AE505070032DCA3 /* SHBDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBDataSource.h; sourceTree = "<group>"; };
+		4D126AD11AE505070032DCA3 /* SHBDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBDataSource.m; sourceTree = "<group>"; };
+		4D126AD31AE508220032DCA3 /* SHBCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBCustomCell.h; sourceTree = "<group>"; };
+		4D126AD41AE508220032DCA3 /* SHBCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBCustomCell.m; sourceTree = "<group>"; };
+		4D126AD61AE508C40032DCA3 /* SHBDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBDataModel.h; sourceTree = "<group>"; };
+		4D126AD71AE508C40032DCA3 /* SHBDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBDataModel.m; sourceTree = "<group>"; };
 		4D72B3B41ADDFE780024EF6C /* CustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtn.h; sourceTree = "<group>"; };
 		4D72B3B51ADDFE780024EF6C /* CustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtn.m; sourceTree = "<group>"; };
 		4DA86D351AD6774E00F97A3F /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,8 +52,8 @@
 		4DA86D481AD6774F00F97A3F /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA86D4D1AD6774F00F97A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA86D4E1AD6774F00F97A3F /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
-		4DA86D581AD6776500F97A3F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		4DA86D591AD6776500F97A3F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4DA86D581AD6776500F97A3F /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4DA86D591AD6776500F97A3F /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		6B9AD632B562A942E0827667 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CB7EDE6B83BA78A7F8A4B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FA6E60E01920F4AA37AD7088 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +78,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D126AD91AE50AC70032DCA3 /* 自定义 按钮和 创建视图 */ = {
+			isa = PBXGroup;
+			children = (
+				4DA86D581AD6776500F97A3F /* TestViewController.h */,
+				4DA86D591AD6776500F97A3F /* TestViewController.m */,
+				4D72B3B41ADDFE780024EF6C /* CustomBtn.h */,
+				4D72B3B51ADDFE780024EF6C /* CustomBtn.m */,
+			);
+			name = "自定义 按钮和 创建视图";
+			sourceTree = "<group>";
+		};
+		4D126ADA1AE50BC60032DCA3 /* AdvancedCollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4D126AD01AE505070032DCA3 /* SHBDataSource.h */,
+				4D126AD11AE505070032DCA3 /* SHBDataSource.m */,
+				4D126ACD1AE504E20032DCA3 /* SHBCollectionController.h */,
+				4D126ACE1AE504E30032DCA3 /* SHBCollectionController.m */,
+				4D126AD61AE508C40032DCA3 /* SHBDataModel.h */,
+				4D126AD71AE508C40032DCA3 /* SHBDataModel.m */,
+				4D126AD31AE508220032DCA3 /* SHBCustomCell.h */,
+				4D126AD41AE508220032DCA3 /* SHBCustomCell.m */,
+			);
+			name = AdvancedCollectionViewDemo;
+			sourceTree = "<group>";
+		};
 		4DA86D2C1AD6774E00F97A3F = {
 			isa = PBXGroup;
 			children = (
@@ -91,10 +129,8 @@
 			children = (
 				4DA86D3C1AD6774E00F97A3F /* AppDelegate.h */,
 				4DA86D3D1AD6774E00F97A3F /* AppDelegate.m */,
-				4DA86D581AD6776500F97A3F /* RootViewController.h */,
-				4DA86D591AD6776500F97A3F /* RootViewController.m */,
-				4D72B3B41ADDFE780024EF6C /* CustomBtn.h */,
-				4D72B3B51ADDFE780024EF6C /* CustomBtn.m */,
+				4D126ADA1AE50BC60032DCA3 /* AdvancedCollectionViewDemo */,
+				4D126AD91AE50AC70032DCA3 /* 自定义 按钮和 创建视图 */,
 				4DA86D3F1AD6774E00F97A3F /* Images.xcassets */,
 				4DA86D411AD6774E00F97A3F /* LaunchScreen.xib */,
 				4DA86D381AD6774E00F97A3F /* Supporting Files */,
@@ -279,10 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D126AD21AE505070032DCA3 /* SHBDataSource.m in Sources */,
+				4D126AD81AE508C40032DCA3 /* SHBDataModel.m in Sources */,
+				4D126AD51AE508230032DCA3 /* SHBCustomCell.m in Sources */,
+				4D126ACF1AE504E30032DCA3 /* SHBCollectionController.m in Sources */,
 				4DA86D3E1AD6774E00F97A3F /* AppDelegate.m in Sources */,
 				4D72B3B61ADDFE780024EF6C /* CustomBtn.m in Sources */,
 				4DA86D3B1AD6774E00F97A3F /* main.m in Sources */,
-				4DA86D5A1AD6776500F97A3F /* RootViewController.m in Sources */,
+				4DA86D5A1AD6776500F97A3F /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

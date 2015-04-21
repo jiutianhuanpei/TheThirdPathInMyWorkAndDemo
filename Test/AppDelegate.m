@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "RootViewController.h"
+#import "TestViewController.h"
+#import "SHBCollectionController.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +24,7 @@
     [self.window makeKeyAndVisible];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    self.window.rootViewController = [[RootViewController alloc] init];
+//    self.window.rootViewController = [[TestViewController alloc] init];
     
     
     return YES;
