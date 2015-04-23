@@ -53,8 +53,18 @@ git仓库：https://github.com/pepibumur/PPiFlatSegmentedControl
 git仓库：https://github.com/rathahin/RHRefreshControl
 * 这个是刷新的控件
 
+###pod 'UMengSocial'
+主页是: http://dev.umeng.com/social/ios/quick-integration
+*友盟
+
+###pod 'BLKFlexibleHeightBar'
+git仓库:https://github.com/bryankeller/BLKFlexibleHeightBar
+*BLKFlexibleHeightBar 可以让你创建可灵活收缩的头部。类似于我们在Facebook, Square Cash, 和 Safari iOS应用中看到的。 
+
 ###pod 'RateView', '~> 1.1'
 git仓库：https://github.com/taruntyagi697/RateView
 * 星星显示的等级，很好用， 可以自定义选中的颜色、未选中的颜色、星星的边框，显示的方式
+
+
 
 
