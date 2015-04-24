@@ -54,22 +54,22 @@ git仓库：https://github.com/pepibumur/PPiFlatSegmentedControl
 ```object
 // 分享栏
 _buttonAction = [[PPiFlatSegmentedControl alloc] initWithFrame:CGRectMake(20,20,CGRectGetWidth(frame)-40,30)
-items:@[[[PPiFlatSegmentItem alloc] initWithTitle:@"赞" andIcon:[UIImage imageNamed:@"thumb-up"]],[[PPiFlatSegmentItem alloc] initWithTitle:@"评论" andIcon:[UIImage imageNamed:@"pinglun"]],[[PPiFlatSegmentItem alloc] initWithTitle:@"分享" andIcon:[UIImage imageNamed:@"share"]]]
-iconPosition:IconPositionLeft
-andSelectionBlock:^(NSUInteger segmentIndex) {
-switch (segmentIndex) {
-case 0:
-[self aapl_sendAction:@selector(support:) from:self];
-break;
-case 1:
-[self aapl_sendAction:@selector(comment:) from:self];
-break;
-default:
-[self aapl_sendAction:@selector(share:) from:self];
-break;
-};
-}
-iconSeparation:5];
+    items:@[[[PPiFlatSegmentItem alloc] initWithTitle:@"赞" andIcon:[UIImage imageNamed:@"thumb-up"]],[[PPiFlatSegmentItem alloc] initWithTitle:@"评论" andIcon:[UIImage imageNamed:@"pinglun"]],[[PPiFlatSegmentItem alloc] initWithTitle:@"分享" andIcon:[UIImage imageNamed:@"share"]]]
+        iconPosition:IconPositionLeft
+        andSelectionBlock:^(NSUInteger segmentIndex) {
+    switch (segmentIndex) {
+        case 0:
+        [self aapl_sendAction:@selector(support:) from:self];
+        break;
+        case 1:
+        [self aapl_sendAction:@selector(comment:) from:self];
+        break;
+    default:
+        [self aapl_sendAction:@selector(share:) from:self];
+        break;
+        };
+        }
+    iconSeparation:5];
 
 _buttonAction.color=[UIColor whiteColor];
 _buttonAction.borderWidth=0.5;
