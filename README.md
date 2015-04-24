@@ -51,6 +51,36 @@ git仓库：https://github.com/robbiehanson/XMPPFramework
 ###pod 'PPiFlatSegmentedControl'
 git仓库：https://github.com/pepibumur/PPiFlatSegmentedControl
 * 实现了多种扁平风格的分段控制的效果，支持图标字体
+```object
+// 分享栏
+_buttonAction = [[PPiFlatSegmentedControl alloc] initWithFrame:CGRectMake(20,20,CGRectGetWidth(frame)-40,30)
+items:@[[[PPiFlatSegmentItem alloc] initWithTitle:@"赞" andIcon:[UIImage imageNamed:@"thumb-up"]],[[PPiFlatSegmentItem alloc] initWithTitle:@"评论" andIcon:[UIImage imageNamed:@"pinglun"]],[[PPiFlatSegmentItem alloc] initWithTitle:@"分享" andIcon:[UIImage imageNamed:@"share"]]]
+iconPosition:IconPositionLeft
+andSelectionBlock:^(NSUInteger segmentIndex) {
+switch (segmentIndex) {
+case 0:
+[self aapl_sendAction:@selector(support:) from:self];
+break;
+case 1:
+[self aapl_sendAction:@selector(comment:) from:self];
+break;
+default:
+[self aapl_sendAction:@selector(share:) from:self];
+break;
+};
+}
+iconSeparation:5];
+
+_buttonAction.color=[UIColor whiteColor];
+_buttonAction.borderWidth=0.5;
+_buttonAction.borderColor=[UIColor appSecondaryColor];
+_buttonAction.selectedColor=[UIColor clearColor];
+_buttonAction.textAttributes=@{NSFontAttributeName:[UIFont systemFontOfSize:13],NSBackgroundColorAttributeName:[UIColor clearColor]};
+_buttonAction.selectedTextAttributes=@{NSFontAttributeName:[UIFont systemFontOfSize:13],
+NSForegroundColorAttributeName:[UIColor appPrimaryColor],NSBackgroundColorAttributeName:[UIColor whiteColor]};
+[contentView addSubview:_buttonAction];
+
+```
 
 ###pod 'RHRefreshControl', '~> 0.1.beta1'
 git仓库：https://github.com/rathahin/RHRefreshControl
@@ -67,6 +97,13 @@ git仓库:https://github.com/bryankeller/BLKFlexibleHeightBar
 ###pod 'RateView', '~> 1.1'
 git仓库：https://github.com/taruntyagi697/RateView
 * 星星显示的等级，很好用， 可以自定义选中的颜色、未选中的颜色、星星的边框，显示的方式
+```object
+_starView = [RateView rateViewWithRating:5];
+_starView.starSize = 15;
+_starView.starFillColor = [UIColor colorWithRed:0.996 green:0.737 blue:0.039 alpha:1.000];
+_starView.starNormalColor = [UIColor clearColor];
+[contentView addSubview:_starView];
+```
 
 
 
