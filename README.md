@@ -9,6 +9,9 @@ git仓库：https://github.com/AFNetworking/AFNetworking
 ###pod 'HexColors'
 git仓库：https://github.com/mRs-/HexColors
 * 加载 十六 位进制的颜色
+```object
+_titleLbl.textColor = [UIColor colorWithHexString:@"413f55"];
+```
 
 ###pod 'EAIntroView'
 git仓库：https://github.com/ealeksandrov/EAIntroView
