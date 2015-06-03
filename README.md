@@ -104,7 +104,15 @@ _starView.starFillColor = [UIColor colorWithRed:0.996 green:0.737 blue:0.039 alp
 _starView.starNormalColor = [UIColor clearColor];
 [contentView addSubview:_starView];
 ```
-
+###pod 'TPKeyboardAvoiding'
+git仓库 : https://github.com/michaeltyson/TPKeyboardAvoiding
+* 让输入框随键盘上浮, 防止键盘遮挡输入框
+```object
+- (void)loadView {
+    TPKeyboardAvoidingScrollView *VC = [[TPKeyboardAvoidingScrollView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.view = VC;
+}
+```
 
 
 
