@@ -113,6 +113,55 @@ git仓库 : https://github.com/michaeltyson/TPKeyboardAvoiding
     self.view = VC;
 }
 ```
+###pod 'DACircularProgress'
+git 仓库: https://github.com/danielamitay/DACircularProgress
+* 环形进度条
+```object
+    DACircularProgressView *circularView = [[DACircularProgressView alloc] initWithFrame:CGRectMake(50, 100, 100, 100)];
+    circularView.trackTintColor = [UIColor redColor];           // 没走的
+    circularView.progressTintColor = [UIColor yellowColor];     // 走过的
+    circularView.innerTintColor = [UIColor whiteColor];         // 中心的
+    circularView.roundedCorners = 2;                            // 进度条圆角
+    circularView.thicknessRatio = 0.1;                          // 粗细
+    circularView.clockwiseProgress = 1;                         // 时针方向
+
+    [self.view addSubview:circularView];
+    
+    [circularView setProgress:0.3 animated:YES];
+```
+###iOSMp4Camera
+网址: http://stackoverflow.com/questions/8474517/mov-to-mp4-video-conversion-iphone-programmatically
+* iOS录视频转MP4
+自写的核心代码
+```object
+void coverToMPEG4(NSURL *path, void(^finished)(NSURL*)) {
+    NSString *_mp4Path = nil;
+    AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:path options:nil];
+    NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
+    if ([compatiblePresets containsObject:AVAssetExportPreset640x480]) {
+        AVAssetExportSession *exportSession = [[AVAssetExportSession alloc ] initWithAsset:avAsset presetName:AVAssetExportPreset640x480];
+        
+        NSDateFormatter* formater = [[NSDateFormatter alloc] init];
+        [formater setDateFormat:@"yyyy-MM-dd-HH:mm:ss"];
+        NSString *path = [NSString stringWithFormat:@"/%@.mp4", [formater stringFromDate:[NSDate date]]];
+        _mp4Path = [NSTemporaryDirectory() stringByAppendingPathComponent:path];
+        exportSession.outputURL = [NSURL fileURLWithPath:_mp4Path];
+        exportSession.shouldOptimizeForNetworkUse = true;
+        exportSession.outputFileType = AVFileTypeMPEG4;
+        NSURL *url = [NSURL fileURLWithPath:_mp4Path];
+        [exportSession exportAsynchronouslyWithCompletionHandler:^{
+            switch ([exportSession status]) {
+                case AVAssetExportSessionStatusCompleted:
+                    finished(url);
+                    break;
+                default:
+                    finished(nil);
+                    break;
+            }
+        }];
+    }
+}
+```
 
 
 
