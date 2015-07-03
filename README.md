@@ -219,7 +219,8 @@ Wax 就是使用 Lua 脚本语言来编写 ios原生应用 的一个框架,它�
 18、ZipArchive
 可用于压缩和解压缩文件
 
-###IDMPhotoBrowser
-图片预览
+###pod 'IDMPhotoBrowser'
+
 git仓库：https://github.com/ideaismobile/IDMPhotoBrowser
+* 图片预览
 
