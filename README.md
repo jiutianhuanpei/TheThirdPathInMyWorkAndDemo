@@ -224,3 +224,13 @@ Wax 就是使用 Lua 脚本语言来编写 ios原生应用 的一个框架,它�
 git仓库：https://github.com/ideaismobile/IDMPhotoBrowser
 * 图片预览
 
+###pod 'AsyncDisplayKit'
+
+git仓库： https://github.com/facebook/AsyncDisplayKit.git
+* 这个是UI类的控件， 来自faceBook。显示界面都是异步重绘，可大幅提高流畅性。————每秒60帧
+
+###pod 'DZNEmptyDataSet'
+
+git仓库： https://github.com/dzenbot/DZNEmptyDataSet.git
+* 在页面无数据的时候显示占位的页面， UIScrollView 的分类，比较好用
+
