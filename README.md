@@ -234,3 +234,18 @@ git仓库： https://github.com/facebook/AsyncDisplayKit.git
 git仓库： https://github.com/dzenbot/DZNEmptyDataSet.git
 * 在页面无数据的时候显示占位的页面， UIScrollView 的分类，比较好用
 
+###pod 'MGSwipeTableCell' 
+git仓库：https://github.com/MortimerGoro/MGSwipeTableCell.git
+* TableViewCell 出现滑动标签的时候用，比如滑动出现删除
+
+###pod 'PNChart'
+git仓库：https://github.com/kevinzhow/PNChart.git
+* 图表制作，很方便
+
+
+
+
+
+
+
+
